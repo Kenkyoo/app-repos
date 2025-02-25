@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")!).render(
       domain={import.meta.env.VITE_AUTH0_ISSUER_BASE_URL}
       clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
       authorizationParams={{
-        redirect_uri: "https://app-repos.vercel.app/repositories",
+        redirect_uri: "https://app-repos.vercel.app",
       }}
         cacheLocation="localstorage"
         useRefreshTokens={true}
