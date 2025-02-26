@@ -9,8 +9,8 @@ const queryClient = new QueryClient();
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Auth0Provider
-      domain={import.meta.env.VITE_AUTH0_ISSUER_BASE_URL}
-      clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
+      domain="https://dev-xn2ddmb4e3urzztj.us.auth0.com"
+      clientId="esEsk2hjyJd37o4GlWRSUezxBQm9PESh"
       authorizationParams={{
         redirect_uri: window.location.origin
       }}
